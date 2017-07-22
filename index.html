@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- saved from url=(0019)http://maplefan.com/ -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="maplestory 冒险岛 maplefan maple mxd 冒险岛2 mxd2">
+    <title>maplefan - Love maplestory come maplefan!</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="Bookmark" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <style type="text/css">
+        a {
+            cursor: url(img/0.png),auto;
+        }
+
+        li {
+            float: left;
+        }
+    </style>
+    <script type="text/javascript">
+        $(function () {
+            //在body和a标签内鼠标按下时触发
+            $('body,a').mousedown(function (e) {
+                //alert(e.which) // 1 = 鼠标左键 left; 2 = 鼠标中键; 3 = 鼠标右键 
+                $(this).css({ cursor: "url(img/Cursor1.png),auto" });
+                return false;//阻止链接跳转 
+            });
+            //在body和a标签内鼠标弹起时触发
+            $('body,a').mouseup(function (e) {
+                //alert(e.which) // 1 = 鼠标左键 left; 2 = 鼠标中键; 3 = 鼠标右键 
+                $(this).css({ cursor: "url(img/0.png),auto" });
+                return false;//阻止链接跳转 
+            });
+        });
+</script>
+
+</head>
+
+<body style="cursor: url(img/0.png),auto">
+    <div id="row">
+        <h1 id="heading" contenteditable="false">maplefan</h1>
+        <h4 id="strapline" contenteditable="false">Welcome to maplefan world!</h4>
+
+        <span>
+            <a class="button" href="http://mxd.sdo.com/web5/home/home.asp" target="_blank">click</a>
+            &nbsp;
+
+            <a class="button" href="music.html" target="_blank">music</a>
+            &nbsp;
+
+            <a class="button" href="video.html" target="_blank">video</a>
+        </span>
+        <embed src="mp3/NxLogo.mp3" autostart="true" width="0" height="0">
+        <embed src="mp3/WzLogo.mp3" autostart="true" width="0" height="0">
+        <div style="position: absolute; bottom: 0;">
+            <left>
+        <ul>
+          <a href="http://tieba.baidu.com/f?kw=maplestory&amp;fr=ala0&amp;tpl=5"><font color="white">Maplestory吧</a>
+		&nbsp;
+		  <a href="Mailto:812020425@qq.com"><font color="white">联系我们</a> </li>
+		  
+		</ul>
+		</left>
+        </div>
+    </div>
+</body>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.4.4/randomColor.min.js'></script>
+<script src="js/index.js"></script>
+
+</html>

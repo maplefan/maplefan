@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>maplefan - music</title>
+<link rel="stylesheet" href="css/stylesheets/style.css">
+<script src="js/jquery-1.7.2.min.js"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="Bookmark" href="img/favicon.ico">
+ <style type="text/css">
+      <style type="text/css">
+        #playlist::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            background-color: #1a1a1a;
+        }
+
+        #playlist::-webkit-scrollbar {
+            background-color: #F5F5F5;
+        }
+
+        #playlist::-webkit-scrollbar-thumb {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            background-color: #333;
+        }
+
+        #playlist {
+            height: 450px;
+           
+            overflow-y: scroll;
+        }
+    </style>
+
+	 
+	 </style>
+
+<style type="text/css">
+        body {background-image: url(maplefan/bg.jpg);}
+    </style>
+	<style type="text/css">
+        a {
+            cursor: url(img/0.png),auto;
+        }
+
+        
+    </style>
+    <script type="text/javascript">
+        $(function () {
+            //在body和a标签内鼠标按下时触发
+            $('body,a').mousedown(function (e) {
+                //alert(e.which) // 1 = 鼠标左键 left; 2 = 鼠标中键; 3 = 鼠标右键 
+                $(this).css({ cursor: "url(img/Cursor1.png),auto" });
+                return false;//阻止链接跳转 
+            });
+            //在body和a标签内鼠标弹起时触发
+            $('body,a').mouseup(function (e) {
+                //alert(e.which) // 1 = 鼠标左键 left; 2 = 鼠标中键; 3 = 鼠标右键 
+                $(this).css({ cursor: "url(img/0.png),auto" });
+                return false;//阻止链接跳转 
+            });
+        });
+</script>
+<link href="css/style1.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="http://www.zhaotexiao.com/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.let_it_snow.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+	/*$("canvas.flare").let_it_snow({
+		windPower: 0,
+		speed: 0,
+		color: "#392F52",
+		size:10,
+		opacity: 0.00000001,
+		count: 40,
+		interaction: false
+	});*/
+
+	/*$("canvas.snow").let_it_snow({
+		windPower: 3,
+		speed: 1,
+		count: 250,
+		size: 0
+	});*/
+
+	$("canvas.flake").let_it_snow({
+		windPower: -5,
+		speed: 1,
+		count: 20,
+		size: 30,
+		image: "img/fy1.png"
+	});
+
+});
+</script>
+
+<style type ="text/css">
+    #bbb {
+	position : absolute;
+	z-index : -1;
+	}
+	</style>
+	
+	
+
+</head>
+<body style="cursor: url(img/0.png),auto">
+<div id="bbb">
+     <canvas width="100%" height="100%" class="flare"></canvas>
+	<canvas width="100%" height="100%" class="snow"></canvas>
+	<canvas width="100%" height="100%" class="flake"></canvas>
+</div>
+
+
+<div id="background"></div>
+
+<div id="player">
+	<div class="cover"></div>
+	<div class="ctrl">
+		<div class="tag">
+			<strong>Title</strong>
+			<span class="artist">Artist</span>
+			<span class="album">Album</span>
+		</div>
+		<div class="control">
+			<div class="left">
+				<div class="rewind icon"></div>
+				<div class="playback icon"></div>
+				<div class="fastforward icon"></div>
+			</div>
+			<div class="volume right">
+				<div class="mute icon left"></div>
+				<div class="slider left">
+					<div class="pace"></div>
+				</div>
+			</div>
+		</div>
+		<div class="progress">
+			<div class="slider">
+				<div class="loaded"></div>
+				<div class="pace"></div>
+			</div>
+			<div class="timer left">0:00</div>
+			<div class="right">
+				<div class="repeat icon"></div>
+				<div class="shuffle icon"></div>
+			</div>
+		</div>
+	</div>
+	
+
+</div>
+
+
+<ul id="playlist"></ul>
+
+<script src="js/jquery-ui-1.8.17.custom.min.js"></script>
+<script src="js/script.js"></script>
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+</div>
+ 
+<body>
+	<canvas width="100%" height="100%" class="flare"></canvas>
+	<canvas width="100%" height="100%" class="snow"></canvas>
+	<canvas width="100%" height="100%" class="flake"></canvas>
+<!-- 统计代码 start -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F96790c81142777e7724407f030936c10' type='text/javascript'%3E%3C/script%3E"));
+</script> 
+<!-- 统计代码 end -->
+
+</body>
+</body>
+</html>

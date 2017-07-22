@@ -1,0 +1,221 @@
+@import 'https://fonts.googleapis.com/css?family=Droid+Sans|Arvo|Corben|Lobster|Droid+Serif|Raleway|Goudy+Bookletter+1911|Abril+Fatface|Yanone+Kaffeesatz|Hammersmith+One|Lato|PT+Sans+Narrow|Open+Sans|Open+Sans+Condensed|Old+Standard+TT|Merriweather|Montserrat|Roboto|Titillium+Web|Karla|Oswald|Glegoo|Vollkorn|Courgette|Abel|Sniglet|Ubuntu|PT+Sans|PT+Serif|PT+Mono';
+
+/* Example row */
+#row {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	height: 100vh;
+	-webkit-font-smoothing: antialiased;
+	background-blend-mode: multiply;
+	background-size: cover;
+	background-position: center;
+}
+#heading {
+	font-weight: 600;
+	font-size: 4rem;
+	margin-bottom: 0;
+	outline: none;
+}
+#strapline {
+	font-weight: 300;
+	font-size: 1.4rem;
+	margin-top: .4rem;
+	outline: none;
+}
+
+.button {
+	font-size: 1rem;
+	padding: .5rem 1.1rem .4rem;
+	border: 1px solid;
+	border-radius: 1rem;
+	background: none;
+	color: inherit;
+	display: inline-block;
+	text-decoration: none;
+}
+
+
+
+/* Fonts */
+.Droid-Sans {
+  font-family: "Droid Sans", Helvetica, Arial, sans-serif;
+}
+
+.Arvo {
+	font-family: "Arvo", Georgia, serif;
+}
+
+.Corben {
+	font-family: "Corben", Georgia, serif;
+}
+
+.Lobster {
+	font-family: "Lobster", Verdana, sans-serif;
+}
+
+.Droid-Serif {
+	font-family: "Droid Serif", Georgia, serif;
+}
+
+.Raleway {
+	font-family: "Raleway", "Lucida Grande", Helvetica, sans-serif;
+}
+
+.Goudy-Bookletter-1911 {
+	font-family: "Goudy Bookletter 1911", "Times New Roman", Georgia, serif;
+}
+
+.Abril-Fatface {
+	font-family: "Abril Fatface", "Palatino Linotype", serif;
+}
+
+.Yanone-Kaffeesatz {
+	font-family: "Yanone Kaffeesatz", Georgia, serif;
+}
+
+.Hammersmith-One {
+	font-family: "Hammersmith One", Tahoma, Verdana, sans-serif;
+}
+
+.Lato {
+	font-family: "Lato", Geneva, Tahoma, sans-serif;
+}
+
+.PT-Sans-Narrow {
+	font-family: "PT Sans Narrow", Arial, sans-serif;
+}
+
+.Open-Sans {
+	font-family: "Open Sans", Helvetica, Verdana, sans-serif;
+}
+
+.Open-Sans-Condensed {
+	font-family: "Open Sans Condensed", Arial, Helvetica, sans-serif;
+}
+
+.Old-Standard-TT {
+	font-family: "Old Standard TT", "Book Antiqua", "Palatino Linotype", serif;
+}
+
+.Merriweather {
+	font-family: "Merriweather", Georgia, serif;
+}
+
+.Montserrat {
+	font-family: "Montserrat", "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.Roboto {
+	font-family: "Roboto", Geneva, "Lucida Console", sans-serif;
+}
+
+.Titillium-Web {
+	font-family: "Titillium Web", Geneva, Tahoma, sans-serif;
+}
+
+.Karla {
+	font-family: "Karla", Verdana, Geneva, sans-serif;
+}
+
+.Oswald {
+	font-family: "Oswald", Arial, sans-serif;
+}
+
+.Glegoo {
+	font-family: "Glegoo", Monaco, "Lucida Console", monospace;
+}
+
+.Vollkorn {
+	font-family: "Vollkorn", Georgia, serif;
+}
+
+.Courgette {
+	font-family: "Courgette", "Lucida Grande", sans-serif;
+}
+
+.Abel {
+	font-family: "Abel", "Lucida Console", monospace;
+}
+
+.Sniglet {
+	font-family: "Sniglet", Geneva, Gadget, sans-serif;
+}
+
+.Ubuntu {
+	font-family: "Ubuntu", Candara, Futura, sans-serif;
+}
+
+.PT-Sans {
+	font-family: "PT Sans", Tahoma, Geneva, sans-serif;
+}
+
+.PT-Serif {
+	font-family: "PT Serif", Georgia, serif;
+}
+
+.PT-Mono {
+	font-family: "PT Mono", "Courier New", Courier, monospace;
+}
+
+.Times-New-Roman {
+	font-family: "Times New Roman", serif;
+}
+
+.Tahoma {
+	font-family: "Tahoma", sans-serif;
+}
+
+.Trebuchet {
+	font-family: "Trebuchet", Helvetica, sans-serif;
+}
+
+.Verdana {
+	font-family: "Verdana", sans-serif;
+}
+
+.Palatino {
+	font-family: "Palatino", serif;
+}
+
+.Impact {
+	font-family: "Impact", sans-serif;
+}
+
+.Helvetica {
+	font-family: "Helvetica", Arial, sans-serif;
+}
+
+.Myriad-Pro {
+	font-family: "Myriad Pro", Helvetica, sans-serif;
+}
+
+.Georgia {
+	font-family: "Georgia", serif;
+}
+
+.Futura {
+	font-family: "Futura", Helvetica, sans-serif;
+}
+
+.Courier-New {
+	font-family: "Courier New", monospace;
+}
+
+.Arial {
+	font-family: "Arial", sans-serif;
+}
